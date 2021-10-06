@@ -1,0 +1,139 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    color: #2f3133;
+}
+
+/* Header section goes here*/
+header {
+    background-color: #ffffff;
+    padding: 1rem 2vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #09a603;
+}
+header p {
+    margin: 0;
+    color: #09a603;
+    letter-spacing: 5px;
+}
+
+/* Nav section goes here*/
+#navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #04b2d9;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+    
+}
+
+nav a {
+font-size: 1.1rem;
+text-decoration: none;
+color: #ffffff;
+font-weight: 700;
+display: block;
+padding: 0.83rem 2rem ;
+}
+
+nav li.active a {
+    background-color: red;
+}
+
+nav a:hover {
+    background-color: #0477bf;
+}
+
+/*Main section goes here*/
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #b40412;
+}
+
+main h2 {
+    color: #b40412;
+    margin-bottom: 0.2rem;
+}
+
+main p {
+    color: #2f3133;
+    margin: 0 0 0.3rem 0;
+}
+
+main ol {
+    padding: 0.5rem 3vw;
+    background-color: #b40412;
+    color: #ffffff;
+    font-weight:500;
+    border-radius: 0.5rem;
+    width: 16.5rem;
+}
+
+main dl dt {
+color: #b40412;
+font-weight: 700;
+font-size: large;
+}
+
+main dl dd {
+color: #024373;
+font-size: large;
+}
+
+main ul {
+    list-style-type: circle;
+    color: #024373;
+
+}
+
+main ul li {
+line-height: 125%;
+margin-bottom: 0.5rem;
+font-size: 0.9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #b40412;
+    color: #ffffff;
+    padding: 0.5rem;
+    width: 15.5rem;
+    border-radius: 0.5rem;
+}
+
+main a {
+    color: #ffffff;
+}
+
+main a:hover {
+    color: #09a603;
+}
+
+/* Footer goes here*/
+footer {
+    background-color: #04b2d9;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    
+}
+
+footer a {
+    color: #ffffff;
+}
