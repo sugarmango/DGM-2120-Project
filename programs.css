@@ -97,7 +97,6 @@ font-size: large;
 main ul {
     list-style-type: circle;
     color: #024373;
-
 }
 
 main ul li {
@@ -122,7 +121,50 @@ main a {
 main a:hover {
     color: #09a603;
 }
+div.center-text {
+    display: inline-block;
+    height: 425px;
+}
+div.center-text div {
+    float: left;
+    margin-right: 330px;
+}
 
+figure.kids {
+    width: 300px;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.kids img {
+    width: 100%;
+    height: auto;
+}
+
+
+figure.kids figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color: #09a603
+}
+
+figure.chemist {
+    width: 300px;
+    margin: 0 0 0 2%;
+float: left;
+}
+
+figure.chemist img {
+    width: 100%;
+    height: auto;
+}
+
+
+figure.chemist figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color: #09a603
+}
 /* Footer goes here*/
 footer {
     background-color: #04b2d9;
