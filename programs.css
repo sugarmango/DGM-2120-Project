@@ -124,10 +124,11 @@ main a:hover {
 div.center-text {
     display: inline-block;
     height: 425px;
+    width: 1300px;
 }
 div.center-text div {
     float: left;
-    margin-right: 330px;
+    margin-right: 320px;
 }
 
 figure.kids {
@@ -151,7 +152,7 @@ figure.kids figcaption {
 figure.chemist {
     width: 300px;
     margin: 0 0 0 2%;
-float: left;
+    float: left;
 }
 
 figure.chemist img {
