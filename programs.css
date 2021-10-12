@@ -165,6 +165,28 @@ figure.chemist figcaption {
     font-size: .75rem;
     color: #09a603
 }
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+margin: 0.5rem 2% 0 0;
+
+}
+
+div.gallery figure img {
+    height: 300px;
+    width: auto;
+    }
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #09a603;
+}
+
 /* Footer goes here*/
 footer {
     background-color: #04b2d9;
