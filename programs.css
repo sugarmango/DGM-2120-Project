@@ -128,11 +128,11 @@ div.center-text {
 }
 div.center-text div {
     float: left;
-    margin-right: 320px;
+    margin-right: 300px;
 }
 
 figure.kids {
-    width: 300px;
+    width: 20%;
     margin: 0 0 0 2%;
     float: right;
 }
