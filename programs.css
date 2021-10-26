@@ -48,7 +48,7 @@ padding: 0.83rem 2rem ;
 }
 
 nav li.active a {
-    background-color: red;
+    background-color: #b40412;
 }
 
 nav a:hover {
