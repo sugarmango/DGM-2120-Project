@@ -188,6 +188,81 @@ div.gallery figcaption {
     color: #09a603;
 }
 
+/*Form goes here*/
+
+.Form fieldset {
+    border: 1px solid #09a603;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.Form legend {
+    color: #09a603;
+font-size: 1rem;
+font-weight: bold;
+
+}
+
+.Form {
+    margin: 1rem;
+}
+
+.Form label, .Form select, .Form [type=text], .Form [type=mail], .Form [type=tel], .Form textarea {
+display: block;
+margin-bottom: 10px;
+}
+
+.Form label input, .Form label select, .Form label textarea {
+    margin-top: 5px;
+}
+
+
+.Form [type=text], .Form [type=tel], .Form select, .Form [type=mail], .Form textarea {
+border: solid 1px #888;
+padding: .4rem;
+width: 250px;
+border-radius: .3rem;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 200;
+}
+
+.Form textarea {
+    height: 6rem;
+}
+
+.Form :required {
+    background-color: #04b2d91c;
+}
+
+.Form [type=submit] {
+    background-color: #09a603;
+    border: none;
+    font-size: 1rem;
+    padding: .75rem 1.5rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 1rem 0 0 .2vw;
+}
+
+/* Thanks page goes here*/
+
+#thanks h1, #thanks h2{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 3.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #09a603
+    
+}
+
+#thanks {
+
+    margin: 300px 0;
+}
+
 /* Footer goes here*/
 footer {
     background-color: #04b2d9;
