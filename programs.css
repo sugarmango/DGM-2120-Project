@@ -207,7 +207,7 @@ font-weight: bold;
     margin: 1rem;
 }
 
-.Form label, .Form select, .Form [type=text], .Form [type=mail], .Form [type=tel], .Form textarea {
+.Form label, .Form select, .Form [type=text], .Form [type=email], .Form [type=tel], .Form textarea {
 display: block;
 margin-bottom: 10px;
 }
@@ -217,7 +217,7 @@ margin-bottom: 10px;
 }
 
 
-.Form [type=text], .Form [type=tel], .Form select, .Form [type=mail], .Form textarea {
+.Form [type=text], .Form [type=tel], .Form select, .Form [type=email], .Form textarea {
 border: solid 1px #888;
 padding: .4rem;
 width: 250px;
