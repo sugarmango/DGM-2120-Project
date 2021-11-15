@@ -160,13 +160,14 @@ main a:hover {
     color: #09a603;
 }
 div.center-text {
-    display: inline-block;
-    height: 425px;
-    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
 }
 div.center-text div {
-    float: left;
-    margin-right: 300px;
+    display: flex;
+    justify-content: left;
 }
 
 .jjhero {
@@ -177,6 +178,10 @@ div.center-text div {
 .jjhero img {
     width: 100%;
     height: auto;
+}
+
+ul#offerlist{
+    margin-right: 200px;
 }
 
 figure.kids {
@@ -199,8 +204,6 @@ figure.kids figcaption {
 
 figure.chemist {
     width: 300px;
-    margin: 0 0 0 2%;
-    float: left;
 }
 
 figure.chemist img {
@@ -238,6 +241,31 @@ div.gallery figcaption {
     text-align: center;
     font-size: .8rem;
     color: #09a603;
+}
+
+/*Table goes here*/
+table.our-activities {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.our-activities th {
+background-color:#04b2d9;
+color: white;
+padding: .5rem 2vw;
+text-align: left;
+}
+
+table.our-activities td {
+    color: #09a603;
+    padding: .4rem 2vw;
+}
+table.our-activities tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+table.our-activities tr:hover {
+    background-color: rgba(105, 36, 31, 0.2);
 }
 
 /*Form goes here*/
